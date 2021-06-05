@@ -1,0 +1,13 @@
+using UnityEngine;
+using UnityEngine.UI;
+
+public class popitclick : MonoBehaviour
+{
+    public Text scoreText;
+    private int score;
+    public void OnClick()
+    {
+       score += 1;
+        scoreText.text = score + "₽";
+    }
+}
